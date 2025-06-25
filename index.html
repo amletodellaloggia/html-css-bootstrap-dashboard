@@ -45,44 +45,82 @@
 	</nav>
 	<div class="container">
 		<div class="row d-flex">
-			<div class="col-12 col-lg-8 d-flex justify-content-between">
-				<h1>Catalogo Libri</h1>
-				<button type="button" class="btn btn-primary">Aggiungi Libro</button>
+			<div class="col-lg-8 col-md-12 d-flex justify-content-between">
+				<h4 class="py-3">Catalogo Libri</h4>
+				<button type="button" class="btn btn-primary m-3">Aggiungi Libro</button>
 			</div>
-			<div class="col-12 col-lg-8">
+			<div class="col-lg-8 col-md-12">
 				<table class="table">
 					<thead>
 						<tr>
 							<th>Titolo</th>
-							<th>Data Prestito</th>
+							<th class="d-sm-none d-md-block">Data Prestito</th>
 							<th>Stato</th>
 							<th>Azioni</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>Mark</td>
-							<td>Mark 2</td>
-							<td>Otto</td>
+							<td>I pilastri della terra</td>
+							<td class="d-sm-none d-md-block">-</td>
+							<td><span class="badge text-bg-success">Disponibile</span></td>
 							<td>
 								<button class="btn btn-light"><i class="fas fa-trash"></i></button>
 							</td>
 						</tr>
 						<tr>
 							<td>Mark</td>
-							<td>Mark 2</td>
+							<td class="d-sm-none d-md-block">-</td>
 							<td>Otto </td>
 							<td>Mark 3</td>
 						</tr>
 						<tr>
 							<td>Mark</td>
-							<td>Mark 2</td>
+							<td class="d-sm-none d-md-block">-</td>
 							<td>Otto </td>
 							<td>Mark 3</td>
 						</tr>
 
 					</tbody>
 				</table>
+			</div>
+
+
+
+			<div class="card col-lg-4 col-md-12 px-0">
+				<div class="card-header">
+					<h3>Todo</h3>
+				</div>
+				<div class="card-body">
+					<div class="card"> 
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="checkDefault">
+									<label class="form-check-label" for="checkDefault">
+										Chiamare segreteria
+									</label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="checkDefault">
+									<label class="form-check-label" for="checkDefault">
+										Mandare avvisi prestiti scaduti
+									</label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="checkDefault">
+									<label class="form-check-label" for="checkDefault">
+										Ordinare nuovi libri
+									</label>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
